@@ -10,8 +10,8 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int Balance = (startingBalance + replenishment + bonus);
-        System.out.println("Ваш баланс " + Balance + " рублей");
+        int balance = (startingBalance + replenishment + bonus);
+        System.out.println("Ваш баланс " + balance + " рублей");
         System.out.println("Начислено бонусами " + bonus + " рублей");
 
     }
